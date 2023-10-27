@@ -1,0 +1,159 @@
+{
+    "locale": "日本語",
+    "alistOperation": {
+        "startAlist": "開始",
+        "endAlist": "終了",
+        "openGUI": "Web GUIを開く",
+        "genRandomPwd": "ランダムパスワードを生成",
+        "getVersion": "バージョン情報"
+    },
+    "rcloneOperation": {
+        "startRclone": "開始",
+        "endRclone": "終了",
+        "getRcloneInfo": "バージョン情報",
+        "help": "Q&A: \nQ1: Rcloneはどこに置くべきですか？ \nA1: 現時点では、それをalist実行ファイルと同じディレクトリに配置してください。 \nQ2: Rcloneの使用方法は？ \nA2: 1. まず一度Web GUIを実行してストレージを追加し、Rcloneのパラメータ設定にrclone rcd --rc-web-guiを入力して起動できます。\n 2. その後、パラメータをrclone mount remote: /path/to/mountpointに変更し、一部のクラウドストレージにはパラメータ設定が必要です。自分で検索してください。 \nQ3: Rcloneの他の機能の使用方法は？ \nA3: Rcloneの公式ドキュメントを参照するか、コミュニティで検索してください。"
+    },
+    "firstLaunch": {
+        "intro": "Alist Helperをご利用いただき、始めましょう！",
+        "about": "Alist Helperに関する詳細情報はこちらをクリックしてください！",
+        "chooseTheme": "まず、お好きなテーマを選択してください。",
+        "chooseDirectory": "ステップ2、alistをインストールし、Alist Helperにその場所を教える必要があります。",
+        "autoInstall": "Alist Helperは今、alistの自動インストールをサポートしています。ここをクリックしてインストールしてください。",
+        "getAlist": "特定のalistバージョンを使用するか、手動でインストールしたい場合は、ここをクリックして詳細をご覧ください。",
+        "finish": "完了しました！これらの設定を変更するには設定で行うことができます！"
+    },
+    "tabs": {
+        "home": "ホーム",
+        "mount": "マウント",
+        "settings": "設定"
+    },
+    "home": {
+        "options": "オプション",
+        "logs": "ログ"
+    },
+    "languageSettings": {
+        "language": "言語",
+        "system": "システムに従う"
+    },
+    "button": {
+        "ok": "確認",
+        "cancel": "キャンセル",
+        "yes": "はい",
+        "no": "いいえ",
+        "select": "選択",
+        "edit": "編集",
+        "save": "保存",
+        "upgrade": "アップグレード"
+    },
+    "tray": {
+        "open": "開く",
+        "hide": "非表示",
+        "quit": "終了",
+        "startAlist": "Alistサービスを開始",
+        "endAlist": "Alistサービスを終了",
+        "tooltip": "Alist Helper",
+        "workingTooltip": "Alist Helper (Alistが実行中)"
+    },
+    "settings": {
+        "interfaceSettings": {
+            "title": "インターフェース",
+            "themeMode": "テーマモード",
+            "themeColor": "テーマカラー",
+            "language": "言語を選択"
+        },
+        "theme": {
+            "light": "ライト",
+            "dark": "ダーク",
+            "system": "システムに従う"
+        },
+        "alistHelperSettings": {
+            "title": "Alist Helperオプション",
+            "saveWindowPlacement": {
+                "title": "ウィンドウの配置を保存",
+                "description": "これにより、Alist Helperはウィンドウの配置を保存できます。"
+            },
+            "minimizeToTray": {
+                "title": "トレイに最小化を許可",
+                "description": "これにより、Alist Helperはトレイに最小化できます。"
+            },
+            "autoStart": {
+                "title": "自動起動を許可",
+                "description": "これにより、Alist Helperは自動的に起動できます。"
+            },
+            "autoStartLaunchMinimized": {
+                "title": "サイレント自動起動を許可",
+                "description": "これにより、Alist Helperはサイレントに自動起動できます。"
+            }
+        },
+        "alistSettings": {
+            "title": "Alistオプション",
+            "autoStartAlist": {
+                "title": "Alistの自動起動を許可",
+                "description": "これにより、Alist Helperが起動時にAlistを自動起動します。"
+            },
+            "autoStartLaunchMinimized": {
+                "title": "サイレント自動起動を許可",
+                "description": "これにより、Alist Helperはサイレントに自動起動できます。"
+            },
+            "workingDirectory": {
+                "title": "作業ディレクトリ",
+                "description": "作業ディレクトリを設定",
+                "hint": "これはディレクトリで、ファイルではありません！",
+                "chooseFrom": "ディレクトリを選択",
+                "notFound": "ディレクトリ内でalistプログラムが見つかりません",
+                "found": "alistプログラムが見つかりました"
+            },
+            "argumentsList": {
+                "title": "起動引数リスト",
+                "description": "alistの起動引数を編集",
+                "descriptionForRclone": "rcloneの起動引数を編集します。行全体を貼り付けることもでき、Alist Helperが解析します。",
+                "editArguments": "引数を編集",
+                "addArgument": "引数を追加",
+                "removeAll": "すべての引数を削除",
+                "remove": "引数を削除"
+            },
+            "proxy": {
+                "title": "HTTPプロキシ",
+                "description": "HTTPプロキシを設定",
+                "hint": "空白の場合、HTTPプロキシは無効になります",
+                "success": "HTTPプロキシアドレスが設定されました",
+                "error": "無効なHTTPプロキシアドレス"
+            }
+        },
+        "rcloneSettings": {
+            "title": "Rcloneオプション",
+            "autoStartAlist": {
+                "title": "rcloneの自動起動を許可",
+                "description": "これにより、Alist Helperが起動時にrcloneを自動起動します。"
+            },
+            "startAfterAlist": {
+                "title": "Alistの起動後にrcloneを開始する",
+                "description": "これにより、Alist HelperがAlistの起動後にrcloneの起動を要求します。"
+            }
+        },
+        "others": {
+            "title": "その他",
+            "checkForUpdates": "更新をチェック",
+            "about": "について"
+        }
+    },
+    "upgrade": {
+        "clickToCheck": "更新をチェックするための隣のボタンをクリックしてください",
+        "checkFirst": "まず更新をチェックしてください",
+        "canUpgrade": "新しいバージョンが見つかりました。アップグレードしますか？",
+        "noUpgrade": "最新バージョンをご利用中です。",
+        "upgrade": "アップグレード",
+        "selectPackage": "ダウンロードする更新パッケージを選択してください。",
+        "networkError": "読み込み中... 長時間読み込まれない場合は、ネットワークを確認して再試行してください。",
+        "alistVersion": {
+            "title": "Alistバージョン",
+            "currentVersion": "現在のAlistバージョン",
+            "latestVersion": "最新のAlistバージョン"
+        },
+        "alistHelperVersion": {
+            "title": "Alist Helperバージョン",
+            "currentVersion": "現在のAlist Helperバージョン",
+            "latestVersion": "最新のAlist Helperバージョン"
+        }
+    }
+}
